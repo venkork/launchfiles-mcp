@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "launchfiles": {
+      "type": "http",
+      "url": "https://launchfiles.app/api/mcp"
+    },
+    "launchfiles-mcp-remote": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://launchfiles.app/api/mcp"
+      ]
+    }
+  }
+}

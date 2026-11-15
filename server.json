@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.launchfiles/launchfiles",
+  "title": "LaunchFiles",
+  "version": "2.1.1",
+  "websiteUrl": "https://launchfiles.app",
+  "description": "Live checkout, UX, Search Console SEO, horizon memory, and directory distribution via Remote MCP.",
+  "repository": {
+    "url": "https://github.com/venkork/launchfiles-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://launchfiles.app/api/mcp"
+    }
+  ]
+}
