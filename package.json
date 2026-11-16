@@ -1,6 +1,6 @@
 {
   "name": "launchfiles-mcp",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Live checkout, UX, Search Console SEO, horizon memory, and zero-touch distribution via MCP.",
   "type": "module",
   "mcpName": "app.launchfiles/launchfiles",
