@@ -2,9 +2,9 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "app.launchfiles/launchfiles",
   "title": "LaunchFiles",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "websiteUrl": "https://launchfiles.app",
-  "description": "Live checkout, UX, Search Console SEO, horizon memory, and directory distribution via Remote MCP.",
+  "description": "Live checkout, UX, Search Console SEO, horizon memory, and zero-touch distribution via MCP.",
   "repository": {
     "url": "https://github.com/venkork/launchfiles-mcp",
     "source": "github"

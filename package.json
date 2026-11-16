@@ -1,0 +1,36 @@
+{
+  "name": "launchfiles-mcp",
+  "version": "2.2.0",
+  "description": "Live checkout, UX, Search Console SEO, horizon memory, and zero-touch distribution via MCP.",
+  "type": "module",
+  "mcpName": "app.launchfiles/launchfiles",
+  "bin": {
+    "launchfiles-mcp": "./bin/mcp-bridge.mjs"
+  },
+  "files": [
+    "bin",
+    "server.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "remote-mcp",
+    "seo",
+    "checkout-monitoring",
+    "ux-audit",
+    "a2a"
+  ],
+  "homepage": "https://launchfiles.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkork/launchfiles-mcp.git"
+  },
+  "author": "LaunchFiles Operations <support@launchfiles.app>",
+  "license": "MIT"
+}

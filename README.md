@@ -4,7 +4,7 @@ Hosted **Streamable HTTP** Model Context Protocol (MCP) server for live website 
 
 - **Remote MCP Endpoint:** `https://launchfiles.app/api/mcp`
 - **Transport:** `streamable-http` (JSON-RPC 2.0 over HTTPS — no local Docker, Node, or Python server required)
-- **Registry ID:** `app.launchfiles/launchfiles` (`v2.1.1`)
+- **Registry ID:** `app.launchfiles/launchfiles` (`v2.2.0`)
 - **Publisher:** LaunchFiles Operations ([support@launchfiles.app](mailto:support@launchfiles.app))
 - **Website & Docs:** [https://launchfiles.app/mcp-distribution](https://launchfiles.app/mcp-distribution)
 
@@ -238,3 +238,23 @@ Because LaunchFiles is a hosted Streamable HTTP endpoint (not a local stdio pack
 - **Support:** [support@launchfiles.app](mailto:support@launchfiles.app) · [https://launchfiles.app/support](https://launchfiles.app/support)
 - **Policies:** [Privacy Policy](https://launchfiles.app/privacy) · [Terms of Service](https://launchfiles.app/terms) · [Refund Policy](https://launchfiles.app/refund)
 - **License:** [MIT](./LICENSE)
+
+## Zero-Install Stdio Bridge (`npx`)
+
+For stdio-only MCP clients (like Claude Desktop), connect without cloning or managing dependencies:
+
+```json
+{
+  "mcpServers": {
+    "launchfiles-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "github:venkork/launchfiles-mcp"
+      ]
+    }
+  }
+}
+```
+
+Or run directly via terminal: `npx -y github:venkork/launchfiles-mcp` (package ID: `launchfiles-mcp@2.2.0`).
